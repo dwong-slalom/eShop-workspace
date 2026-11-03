@@ -70,3 +70,14 @@ npx meta exec "dotnet build"
 
 Open `eShop-workspace.code-workspace` to load the meta repo and the child repos
 as a multi-root workspace.
+
+## Docs
+
+Cross-project notes live in the meta repo (child repo source is never tracked
+here), under `docs/`:
+
+- `docs/runbooks/` — evergreen operational references (deploy / verify / tear
+  down, plus hard-won gotchas).
+  - [eShop on AWS ECS Fargate](docs/runbooks/eshop-aws-fargate.md)
+- `docs/sessions/` — dated session journals: what was done, what broke, and why.
+  - [2026-11-03 — AWS Fargate deployment](docs/sessions/2026-11-03-aws-fargate-deployment.md)
