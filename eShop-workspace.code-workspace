@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "meta",
+      "path": "."
+    },
+    {
+      "name": "eShop",
+      "path": "eShop"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules": true
+    }
+  }
+}

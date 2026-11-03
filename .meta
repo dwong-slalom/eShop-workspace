@@ -1,0 +1,6 @@
+{
+  "ignore": [],
+  "projects": {
+    "eShop": "git@github.com:dwong-slalom/eShop.git"
+  }
+}

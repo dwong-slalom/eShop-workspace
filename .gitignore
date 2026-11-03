@@ -1,0 +1,23 @@
+# --- meta repo child projects ---
+# Child repositories are cloned in by `meta git clone` and are NOT tracked
+# by this meta repo. Each project directory listed in `.meta` is ignored here.
+/eShop/
+
+# --- node / meta tooling ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vs/
+
+# --- build / tooling output ---
+bin/
+obj/
+dist/
+*.log
